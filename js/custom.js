@@ -32,7 +32,6 @@
 			autoplay: false,
 			autoplayTimeout: 5000,
 			autoplayHoverPause: false,
-			animateOut: 'fadeOut',
 			responsive: {
 				0: {
 					items: 1
@@ -46,6 +45,20 @@
 			}
 		})
 		// slider_carousel js end
+
+		//wow js start
+		wow = new WOW(
+			{
+				animateClass: 'animated',
+				offset: 100,
+				callback: function (box) {
+					console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+				}
+			}
+		);
+		wow.init();
+		//wow js stop
+
 
 
 
