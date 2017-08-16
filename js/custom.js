@@ -1,11 +1,33 @@
 (function ($) {
 	$(document).ready(function () {
 
+		//preloader js start
+		$(window).load(function () {
+			$('#preloader').fadeOut('slow', function () { $(this).remove(); });
+		});
+		//preloader js end
+
+		//wow js start
+		wow = new WOW(
+			{
+				animateClass: 'animated',
+				offset: 100,
+				callback: function (box) {
+					console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+				}
+			}
+		);
+		wow.init();
+		//wow js stop
+
+		// Video Popup js start
+		$("#videopopupl").YouTubePopUp();
+		$("#videopopupl-big").YouTubePopUp();
+		//video popup js end
 		/* menu visiable js start */
 
 		$(".menu-appander").click(function () {
-			$(".mega-menu").addClass("menupop");
-			$(this).css("opacity", "0");
+			$(".mega-menu").toggleClass("menupop");
 		})
 		$(".menu-cross").click(function () {
 			$(".mega-menu").removeClass("menupop");
@@ -23,7 +45,9 @@
 			$(".search-icon").css("opacity", "1");
 		})
 		/* src box pop up js end */
-
+		$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function () {
+			$(this).toggleClass('open');
+		});
 		// slider_carousel js start
 		$('#slider_carousel').owlCarousel({
 			loop: true,
@@ -45,21 +69,6 @@
 			}
 		})
 		// slider_carousel js end
-
-		//wow js start
-		wow = new WOW(
-			{
-				animateClass: 'animated',
-				offset: 100,
-				callback: function (box) {
-					console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-				}
-			}
-		);
-		wow.init();
-		//wow js stop
-
-
 
 
 

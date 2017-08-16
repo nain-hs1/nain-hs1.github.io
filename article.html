@@ -10,6 +10,8 @@
   <link rel="icon" type="image/icon" href="images/fev.png">
   <!-- animation css -->
   <link href="css/animate.css" rel="stylesheet">
+  <!-- video popup css -->
+  <link href="css/youtubevideopopup.css" rel="stylesheet">
   <!-- font-awesome css -->
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <!-- style css -->
@@ -24,11 +26,14 @@
 </head>
 
 <body>
-
+  <!--preloadre-->
+  <div id="preloader"></div>
+  <!--preloadre End-->
+  
   <!-- header area start -->
   <header id="headre" class="headre-menu fix">
     <div class="holder">
-      <div class="menu-appander">
+      <div id="nav-icon1" class="menu-appander">
         <span></span>
         <span></span>
         <span></span>
@@ -96,7 +101,6 @@
   <!-- menu area start -->
   <div class="mega-menu">
     <div class="menu-area">
-      <div class="menu-cross"><img src="images/home/x.png" alt=""></div>
       <div class="menu">
         <ul>
 
@@ -213,10 +217,11 @@
     <div class="vlg-title">
       <div class="holder">
         <div class="title">
-          <h2><span><a href="#"><img src="images/articles/articles-back-icon.png" alt="Left arrow"></a></span>Book Village: One</h2>
+          <h2><span><a href="book-village.html"><img src="images/articles/articles-back-icon.png" alt="Left arrow"></a></span>Book
+            Village: One</h2>
         </div>
         <div class="feedtack-text">
-          <p>Feedback</p>
+          <p><a href="index.html#get-touch">Feedback</a></p>
         </div>
       </div>
     </div>
@@ -256,10 +261,10 @@
         </div>
         <div class="three-one">
           <div class="attach">
-            <a href="#"><img src="images/articles/articles-email-link-icon.png" alt="Message"></a>
+            <a href="mailto: fantasy-worldemail012@gmail.com"><img src="images/articles/articles-email-link-icon.png" alt="Message"></a>
           </div>
           <div class="smal-video fix">
-            <a href="#">
+            <a id="videopopupl" class="vid-one" href="https://www.youtube.com/watch?v=14WBOP5h-JY">
               <img src="images/articles/articles-intro-video-icon.png" alt="Video">
               <p>video</p>
             </a>
@@ -354,17 +359,21 @@
             <img src="images/articles/articles-video-icon.png" alt="Video">
           </div>
         </div>
-        <div class="video"><a href="#"><img src="images/articles/articles-play-video-icon.png" alt="Video"></a></div>
+        <div class="video">
+          <a id="videopopupl-big" class="vid-one" href="https://www.youtube.com/watch?v=hUAie-X3u8I">
+            <img src="images/articles/articles-play-video-icon.png" alt="Video">
+            </a>
+        </div>
       </div>
       <div class="book-area">
         <div class="book-title art-text">
           <h2>Other Books</h2>
         </div>
         <div class="books">
-          <div class="single-book">
+          <div class="single-book wow slideInLeft">
             <a href="#"><img src="images/articles/articles-forgotten-war-image.png" alt=""></a>
           </div>
-          <div class="single-book">
+          <div class="single-book wow slideInRight">
             <a href="#"><img src="images/articles/articles-forgotten-war-image.png" alt=""></a>
           </div>
         </div>
@@ -377,6 +386,8 @@
   <script src="js/vendor/jquery-1.11.2.min.js"></script>
   <!-- wow js -->
   <script src="js/wow.min.js"></script>
+  <!-- video popup js -->
+  <script src="js/videopopup.js"></script>
   <!-- smooth_scroll js -->
   <script src="js/smooth_scroll.js"></script>
   <!-- Custom js -->

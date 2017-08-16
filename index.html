@@ -25,12 +25,15 @@
 
 <body>
 
+  <!--preloadre-->
+  <div id="preloader"></div>
+  <!--preloadre End-->
 
   <!-- header area start -->
   <header id="headre" class="header-area fix">
     <div class="holder">
       <div class="header-top">
-        <div class="menu-appander">
+        <div id="nav-icon1" class="menu-appander">
           <span></span>
           <span></span>
           <span></span>
@@ -53,7 +56,7 @@
         <div class="home-welcome">
           <h2>Welcome to</h2>
         </div>
-        <div class="home-logo">
+        <div class="home-logo wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <!--SVG CODE START -->
           <div viewBox="70 160 800 190" preserveAspectRatio="xMaxYMax meet">
             <svg id="hs-svg-fantasy-world" class="white-logo" viewbox="0 0 1400 299.6" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
@@ -104,7 +107,6 @@
   <!-- menu area start -->
   <div class="mega-menu">
     <div class="menu-area">
-      <div class="menu-cross"><img src="images/home/x.png" alt=""></div>
       <div class="menu">
         <ul>
 
@@ -236,7 +238,7 @@
   <div class="section about-usarea fix" id="about-us">
     <div class="holder">
       <div class="dis-flex">
-        <div class="about-img"></div>
+        <div class="about-img wow slideInLeft"></div>
         <div class="about-content">
           <h3>About Us</h3>
           <p>We love creating content and sharing it with the world. This website examines literature in our society and exposes
@@ -272,7 +274,7 @@
 
             <a href="" class="art-btn blue-bg">visit now</a>
           </div>
-          <div class="inside-image">
+          <div class="inside-image  wow slideInRight">
             <img src="images/home/home-gradient-book-icon.png" alt="Book">
           </div>
         </div>
@@ -286,7 +288,7 @@
 
             <a href="" class="art-btn orange-bg">coming 2018</a>
           </div>
-          <div class="inside-image">
+          <div class="inside-image  wow slideInRight">
             <img src="images/home/home-gradient-baby-icon.png" alt="Book">
           </div>
         </div>
@@ -299,7 +301,7 @@
 
             <a href="" class="art-btn pink-bg">coming 2019</a>
           </div>
-          <div class="inside-image">
+          <div class="inside-image  wow slideInRight">
             <img src="images/home/home-gradient-diamond-icon.png" alt="Book">
           </div>
         </div>
@@ -327,7 +329,7 @@
 
         <div class="full-adress">
 
-          <div class="media">
+          <div class="media wow slideInLeft">
             <div class="single-midea">
               <a href="#">
                 <div class="media-img">
@@ -362,7 +364,7 @@
             </div>
 
           </div>
-          <div class="message">
+          <div class="message wow slideInRight">
             <form>
               <div class="infld">
                 <input class="fld" placeholder="Full Name" required="" type="text">
@@ -374,7 +376,7 @@
                 <textarea rows="" placeholder="Message" cols=""></textarea>
               </div>
               <div class="submit-btn">
-                <button type="button">Submit <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></button>
+                <button type="button" href="mailto: fantasy-worldemail012@gmail.com">Submit <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></button>
               </div>
             </form>
           </div>
@@ -394,12 +396,12 @@
 
     <div class="partners-logo">
       <div class="holder mdm-holder">
-        <div class="single-logo"><a href="#"><img src="images/home/" alt="image#"></a></div>
-        <div class="single-logo"><a href="#"><img src="images/home/" alt="image#"></a></div>
-        <div class="single-logo"><a href="#"><img src="images/home/" alt="image#"></a></div>
-        <div class="single-logo"><a href="#"><img src="images/home/" alt="image#"></a></div>
-        <div class="single-logo"><a href="#"><img src="images/home/" alt="image#"></a></div>
-        <div class="single-logo"><a href="#"><img src="images/home/" alt="image#"></a></div>
+        <div class="single-logo"><a href="#"><img src="images/home/gray.png" alt="image#"></a></div>
+        <div class="single-logo"><a href="#"><img src="images/home/gray.png" alt="image#"></a></div>
+        <div class="single-logo"><a href="#"><img src="images/home/gray.png" alt="image#"></a></div>
+        <div class="single-logo"><a href="#"><img src="images/home/gray.png" alt="image#"></a></div>
+        <div class="single-logo"><a href="#"><img src="images/home/gray.png" alt="image#"></a></div>
+        <div class="single-logo"><a href="#"><img src="images/home/gray.png" alt="image#"></a></div>
       </div>
     </div>
   </section>
@@ -418,6 +420,8 @@
   <script src="js/vendor/jquery-1.11.2.min.js"></script>
   <!-- wow js -->
   <script src="js/wow.min.js"></script>
+  <!-- video popup js -->
+  <script src="js/videopopup.js"></script>
   <!-- smooth_scroll js -->
   <script src="js/smooth_scroll.js"></script>
   <!-- Custom js -->
