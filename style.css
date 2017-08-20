@@ -941,23 +941,26 @@ select:focus {
 
 .single-logo>a {
 	display: block;
-	height: 100%;
-	width: 100%;
+	height: 12vh;
+	width: auto;
 }
 
 .single-logo img {
-	height: 100%;
-	width: 100%;
+	height: 12vh;
+	width: auto;
 }
 
-
+.partners-logo img:hover {
+    transform: scale(1.1);
+    
+}
 /* footer area start >*/
 
 footer {
 	background: #000000 none repeat scroll 0 0;
 	padding: 50px 0;
-}
 
+}
 .copyright {
 	padding: 0 12px;
 	text-align: center;
@@ -1101,7 +1104,7 @@ About page css
 }
 
 .about-same span a:hover {
-	color: #FF9000;
+	color: grey;
 }
 
 .about-same span>.underline::after {
@@ -1668,7 +1671,10 @@ Book Village page Css
 	width: 27px;
 }
 
-
+.book-slider img:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
 /* amazon discout area */
 
 .discout-area.fix {
