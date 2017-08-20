@@ -295,7 +295,7 @@ Menu Css
 .visit-img {
 	float: left;
 	padding: 0 20px;
-	width: 30%;
+	width: 20%;
 }
 
 .visit-img>a {
@@ -313,7 +313,7 @@ Menu Css
 	border-radius: 8px;
 	display: block;
 	font-family: hs-font-bold;
-	font-size: 27px;
+	font-size: 22px;
 	line-height: 29px;
 	margin: 0 0 0 35px;
 	padding: 10px 0;
