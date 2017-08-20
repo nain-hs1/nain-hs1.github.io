@@ -118,7 +118,7 @@ div {
 
 
 #active{
-    text-decoration: underline;
+    text-decoration: overline underline;
 }
 /*--some common CSS--*/
 
