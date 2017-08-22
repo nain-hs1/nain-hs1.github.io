@@ -158,12 +158,12 @@ div {
 
 
 /*==========================================
-Main Css
+Main CSS
 ============================================*/
 
 
 /*==========================================
-Menu Css
+Menu CSS
 ============================================*/
 
 .mega-menu {
@@ -433,11 +433,11 @@ Menu Css
 
 
 /*==========================================
-Home page Css
+Home Page CSS
 ============================================*/
 
 
-/* headre area css */
+/* header area css */
 
 .header-area {
 	background: -moz-linear-gradient(210deg, rgba(136, 250, 78, 1) 0%, rgba(86, 193, 255, 1) 100%);
@@ -613,7 +613,6 @@ Home page Css
 	background: transparent;
 	display: none;
 }
-
 
 /* about us area start */
 
@@ -982,7 +981,7 @@ footer {
 
 
 /*==========================================
-About page css
+About Us Page CSS
 ============================================*/
 
 
@@ -1117,7 +1116,7 @@ About page css
 
 
 /*==========================================
-Article page Css
+Article Page CSS
 ============================================*/
 
 .vlg-title {
@@ -1926,20 +1925,3 @@ Landing page Css
 	font-size: 17px;
 	margin: 2px 0 0;
 }
-
-
-/*preloader css start*/
-
-#preloader {
-	position: fixed;
-	left: 0;
-	top: 0;
-	z-index: 99999999999;
-	width: 100%;
-	height: 100%;
-	overflow: visible;
-	background: #fff url('images/loading.gif') no-repeat center center;
-}
-
-
-/* preloader css end */
