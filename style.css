@@ -118,8 +118,10 @@ div {
 
 
 #active{
-    text-decoration: overline underline;
+    border-bottom: solid white 5px;
+    padding-bottom: 2px;
 }
+
 /*--some common CSS--*/
 
 .dis-flex {
@@ -755,8 +757,12 @@ a:hover+.right-arrow {
 	transform: scale(1.1)
 }
 
+#shrink-hover:hover{
+    background-color: rgb(100, 100, 100);
+}
 
-/* get-tough start */
+
+/* get-in-touch start */
 
 .contact-area {
 	padding: 50px 0;
