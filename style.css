@@ -116,11 +116,11 @@ div {
 	box-sizing: border-box;
 }
 
-
-#active{
-    border-bottom: solid white 5px;
-    padding-bottom: 2px;
+#active {
+	border-bottom: solid white 5px;
+	padding-bottom: 2px;
 }
+
 
 /*--some common CSS--*/
 
@@ -550,14 +550,13 @@ Home Page CSS
 
 .src-cros {
 	text-align: right;
-    padding-right: 8vw;
-    
+	padding-right: 8vw;
 }
 
 .src-cros i {
 	color: #ffffff;
 	font-size: 60px;
-    font-weight: 900;
+	font-weight: 900;
 }
 
 
@@ -618,6 +617,7 @@ Home Page CSS
 	background: transparent;
 	display: none;
 }
+
 
 /* about us area start */
 
@@ -743,7 +743,8 @@ a:hover+.right-arrow {
 	max-width: 300px;
 }
 
-.art-btn, .art-btn-2 {
+.art-btn,
+.art-btn-2 {
 	border-radius: 8px;
 	color: #ffffff;
 	display: block;
@@ -764,8 +765,8 @@ a:hover+.right-arrow {
 	transform: scale(0.96)
 }
 
-#shrink-hover:hover{
-    background-color: rgb(100, 100, 100);
+#shrink-hover:hover {
+	background-color: rgb(100, 100, 100);
 }
 
 
@@ -814,7 +815,7 @@ a:hover+.right-arrow {
 
 .single-midea>a:hover {
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
-    transform: scale(1.02)
+	transform: scale(1.02)
 }
 
 .media-name {
@@ -967,16 +968,17 @@ select:focus {
 }
 
 .partners-logo img:hover {
-    transform: scale(1.1);
-    
+	transform: scale(1.1);
 }
+
+
 /* footer area start >*/
 
 footer {
 	background: #000000 none repeat scroll 0 0;
 	padding: 50px 0;
-
 }
+
 .copyright {
 	padding: 0 12px;
 	text-align: center;
@@ -1559,12 +1561,12 @@ Book Village page Css
 .review-book {
 	padding-left: 5%;
 	width: 40%;
-            left:100px;
+	left: 100px;
 }
 
-.review-book > img {
-    float: right;
-    max-width: 20vw;
+.review-book>img {
+	float: right;
+	max-width: 20vw;
 }
 
 .review-content {
@@ -1693,10 +1695,12 @@ Book Village page Css
 	width: 27px;
 }
 
-.book-slider img:hover{
-    cursor: pointer;
-    transform: scale(0.9);
+.book-slider img:hover {
+	cursor: pointer;
+	transform: scale(0.9);
 }
+
+
 /* amazon discout area */
 
 .discout-area.fix {
