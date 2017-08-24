@@ -1553,6 +1553,11 @@ Book Village page Css
 	width: 40%;
 }
 
+.review-book > img {
+float: right;
+max-width: 80%;
+}
+
 .review-content {
 	margin-top: 33px;
 	padding-left: 10%;
