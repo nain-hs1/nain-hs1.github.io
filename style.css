@@ -1551,6 +1551,7 @@ Book Village page Css
 	top: 50%;
 	width: 209px;
 	z-index: 99;
+    
 }
 
 .content-block {
@@ -1649,9 +1650,10 @@ Book Village page Css
 }
 
 .read-more {
-	background: #5e5e5e none repeat scroll 0 0;
+    background: #ffffff;
 	border-radius: 8px;
-	color: #ffffff;
+    color: #585555;
+    border:solid 1px #585555;
 	display: block;
 	font-family: hs-font-bold;
 	font-size: 29px;
@@ -1662,8 +1664,17 @@ Book Village page Css
 	width: 150px;
 }
 
-.read-more:hover {
-	background: #000000;
+.review-quote a:hover {
+    background: #5e5e5e none repeat scroll 0 0;
+	color: #ffffff;
+}
+.review-quote a:hover:after{
+    content: "\f178";
+    font-family: "FontAwesome";
+    color:white;
+    font-size: 20px;
+    margin: 5px;
+    
 }
 
 
@@ -1743,9 +1754,9 @@ Book Village page Css
 
 .book-slider img:hover {
 	cursor: pointer;
-	transform: scale(0.9);
+    
+    
 }
-
 
 /* amazon discout area */
 
@@ -1876,6 +1887,9 @@ Book Village page Css
 	width: 100%;
 }
 
+.single-libray img:hover{
+    transform: scale(1.04);
+}
 
 /*==========================================
 Landing page Css
