@@ -959,10 +959,11 @@ select:focus {
 	font-size: 24px;
 	margin-left: 22px;
 }
-
-.submit-btn>button:hover {
-	background: #0088F3;
-	color: #ffffff;
+.submit-btn>button:hover:after {
+	content: " \f0a9";
+    font-family: 'FontAwesome';
+    margin: 10px;
+    font-size: inherit;
 }
 
 .submit-btn>button:focus,
