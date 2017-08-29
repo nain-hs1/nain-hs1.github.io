@@ -2802,11 +2802,6 @@ address {
     font-size: 15px;
     font-weight: 200;
 }
-.submit-btn button a:hover{
-    background: #0088F3 !important;
-    color:#ffffff !important;
-    cursor: pointer;
-}
 
 .YourDetailsWrapper .textfieldinput.filled+label,
 .YourDetailsWrapper .textfieldinput:focus+label,
