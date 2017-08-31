@@ -253,22 +253,24 @@
 			</div>
 
 
-            <div class="menu-visit">
-                <div class="holder">
-                    <div class="visit-img">
-                        <a href="https://www.dymocks.com.au" target="_blank"> 
-                            <img src="images/menu/menu-dymocks-logo.png" alt="dymocks-image">
-                        </a>
-                    </div>
-                    
-                    <div class="visit-text">
-                        <p>The best place to buy books.</p>
-                    </div>
-                    <div class="menu-visit-btn">
-                        <a target="_blank" href="https://www.dymocks.com.au">Visit</a>
-                    </div>
-                </div>
-            </div>
+			<div class="menu-visit">
+				<div class="holder">
+					<div class="visit-img">
+						<a href="https://www.dymocks.com.au" target="_blank"><img alt=
+						"dymocks-image" src="images/menu/menu-dymocks-logo.png"></a>
+					</div>
+
+
+					<div class="visit-text">
+						<p>The best place to buy books.</p>
+					</div>
+
+
+					<div class="menu-visit-btn">
+						<a href="https://www.dymocks.com.au" target="_blank">Visit</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!-- menu area end -->
@@ -304,12 +306,12 @@
 						"images/articles/articles-star-dark-icon.png"> <img alt="Star" src=
 						"images/articles/articles-star-dark-icon.png"> <img alt="Star" src=
 						"images/articles/articles-star-dark-icon.png"> <img alt="Star" src=
-						"images/articles/articles-star-dark-icon.png"></div>
+						"images/articles/articles-star-light-icon.png"></div>
 					</div>
 
 
 					<div class="book-img"><img alt="Book" src=
-					"images/book-village/book-village-orient-express-image.png">
+					"images/book-village/book-village-the-time-machine-image.png">
 					</div>
 				</div>
 
@@ -319,7 +321,7 @@
 						<p>AUTHOR</p>
 
 
-						<h3>AGATHA CHRISTIE</h3>
+						<h3>S.J KINCAID</h3>
 					</div>
 
 
@@ -332,10 +334,10 @@
 
 
 					<div class="forgotten art-text">
-						<h2>Murder on the Orient Express</h2>
+						<h2>Vortex</h2>
 
 
-						<p>Published 1 January 1934</p>
+						<p>Published on 2 July 2013</p>
 					</div>
 
 
@@ -347,17 +349,17 @@
 
 				<div class="three-one">
 					<div class="attach">
-						<a href="mailto:%20fantasy-worldemail012@gmail.com"><img alt="Message"
-						src="images/articles/articles-email-link-icon.png"></a>
+						<a href="mailto:fantasyworldau17@gmail.com"><img alt="Message" src=
+						"images/articles/articles-email-link-icon.png"></a>
 					</div>
 
 
-					<div class="smal-video fix">
-						<a class="vid-one" href="https://www.youtube.com/watch?v=14WBOP5h-JY" id=
+					<div class="smal-video fix wow tada" data-wow-delay="0.5s">
+						<a class="vid-one" href="https://www.youtube.com/watch?v=e4Wpyb_BAMc" id=
 						"videopopupl"><img alt="Video" src=
 						"images/articles/articles-intro-video-icon.png">
 
-						<p>video</p></a>
+						<p>Book Trailer</p></a>
 					</div>
 				</div>
 			</div>
@@ -367,25 +369,97 @@
 	<!-- summary area start -->
 
 
+	<div class="disclaimer-wrapper">
+		<center>
+			<div id="container">
+				<button class="button button-colour hero-sentence-link" id=
+				"disclaimer-hide" onclick="myFunction()"><b id=
+				"hero-sentence-link">Disclaimer<i class="fa fa-arrow-down" id=
+				"icon"></i></b></button>
+			</div>
+
+
+			<div id="myDIV" style="display: none;">
+				<div class="about-our-reviews">
+					<b id="hero-sentence" style="color:#3D3D3D">About Our Reviews</b>
+
+					<p id="hero-sentence-2" style="color:#666666;"><br>
+					We analyse the overarching ideas of a novel. We do this by providing you
+					with a summary, our critical opinion and how we would re-write the book
+					<i>(if we had the chance)</i>. Our goal is to wake up your inner desire to
+					read a book and find the perfect match for you. For this reason we have to
+					advise that our reviews may contain <b style=
+					"color: #000000;">spoilers.</b><br></p>
+				</div>
+			</div>
+		</center>
+		<script>
+		                  function myFunction() {
+		                    var x = document.getElementById('myDIV');
+		                    if (x.style.display === 'none') {
+		                        x.style.display = 'block';
+		                    } else {
+		                        x.style.display = 'none';
+		                    }
+		                  }
+		</script> 
+		<script>
+		                    (function(document){
+		                  var div = document.getElementById('container');
+		                  var icon = document.getElementById('icon');
+		                  var open = false;
+
+		                  div.addEventListener('click', function(){
+		                    if(open){
+		                      icon.className = 'fa fa-arrow-down';  
+		                    } else{
+		                      icon.className = 'fa fa-arrow-down open';
+		                    }
+
+		                    open = !open;
+		                  });
+		                  })(document);
+		</script>
+	</div>
+
+	<hr>
+
+
 	<section class="summary-area fix" id="sumary">
 		<div class="holder sp">
 			<div class="summary art-text fix">
-				<h2>Summary</h2>
+				<h2 id="underline">Summary</h2>
+				<br>
 
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-				velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-				cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-				est laborum.</p>
+				<h2 id="hero-sentence-main"><b>Going back in time is no joke. Simply put:
+				the novel is mysteriously amazing.</b><br>
+				</h2>
+
+
+				<p>Tom, medium height, stubby, brown hair, two eyes, in love, 16. He has an
+				ability to travel in time; one power that people wish would be present in
+				reality. Tom lives in a remote, scary, shadowy town that Kincaid describes
+				as “the hub of evil and good”. The only problem with his power (travelling
+				in time) is that he can only go 30 minutes back in time. Just to jog your
+				thoughts, what do you think, how will he solve this major issue? His
+				girlfriend dies, their attachment is what brought dominance in his power.
+				Kincaid develops a cohesive and well-developed plot.</p>
+				<br>
+
+
+				<p><span>Have you ever wanted to go back in time? Perhaps, to change
+				something you have done? Well, this book can make your dream come
+				true.</span>
+				</p>
+				<br>
 			</div>
 
 
 			<div class="about-author fix">
 				<div class="dis-flex">
-					<div class="author-img">
+					<div class="author-img"><img alt="" height="" src=
+					"images/articles/articles-about-author-s-j-kincaid.png" width="">
 					</div>
 
 
@@ -393,13 +467,14 @@
 						<h2>About the Author</h2>
 
 
-						<h3>Agatha Christie</h3>
+						<h3>S.J Kincaid</h3>
 
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-						minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-						ex ea commodo consequat.</p>
+						<p>S.J. Kincaid was born in Alabama and grew up in California, but it was
+						while living beside a haunted graveyard in Scotland that she realised
+						that she wanted to be a writer. The second book in the Insignia series,
+						Vortex was released in July of 2013. Her standalone novel "The Diabolic"
+						was released in spring of 2016.</p>
 					</div>
 				</div>
 			</div>
@@ -409,18 +484,22 @@
 		<div class="amazon-area">
 			<div class="holder">
 				<div class="amazon-img">
-					<a href="https://www.officeworks.com.au"><img alt="Officeworks" src=
-					"images/book-village/book-village-officeworks-ad.png"></a>
+					<a href=
+					"https://www.apple.com/au_edu_5004662/shop?afid=p233%7Ccamref%3A1l3vb8D&cid=AOS-AU-CAMPUS-PHG"
+					target="_blank"><img alt="Apple" id="apple" src=
+					"images/articles/articles-apple-advert.png"></a>
 				</div>
 
 
 				<div class="title">
-					<h2>Big Ideas. Lowest Prices</h2>
+					<h2>Up to 10% off Apple Products</h2>
 				</div>
 
 
 				<div class="visit-link">
-					<a target="_blank" href="https://www.officeworks.com.au">Visit</a>
+					<a href=
+					"https://www.apple.com/au_edu_5004662/shop?afid=p233%7Ccamref%3A1l3vb8D&cid=AOS-AU-CAMPUS-PHG"
+					target="_blank">Claim</a>
 				</div>
 			</div>
 		</div>
@@ -442,30 +521,37 @@
 
 
 			<div class="review-opinion review-text">
-				<h2>Summative Opinion</h2>
+				<h2>Opinion</h2>
 
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat.</p>
-			</div>
+				<p>Reviews of books can only be written if they are interesting, grasping
+				and enthralling. If not, the review itself would be boring. Vortex by S.J
+				Kincaid demonstrates the strongest of bonds – Love represented through the
+				words of the book. This book is about true and dedicated love, one that has
+				never been unrequited. Kincaid’s vivid descriptions have made the love flow
+				right off the page. Romance. Crime. Two things that go very well
+				together.</p>
+				<br>
 
 
-			<div class="interesting-point review-text">
-				<h2>Interesting Points</h2>
+				<p>Lucy. Tom: The two main characters, “budding lovers” Kincaid describes
+				them as. In this book, the characters are used to demonstrate a part of
+				society. Tom represents intelligence, bravery and the scientific aspects of
+				society. While, Lucy represents compassion, love and connection. Kincaid
+				further complicates the plot by adding characters that represent the darker
+				section of human nature and society, evil. The people in the book who are
+				classified as “evil” continuously try to steal and use Tom’s magnificent
+				power to the deterioration of society. Each characters has been carefully
+				described and unique attributes and features have been to given to each of
+				them.</p>
+				<br>
 
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat.</p>
+				<p>The target audience of the book is people above the age of 12. Vortex is
+				a book that discusses issues that can only be appreciated and understood by
+				people above the age of 12. The theme of romance is amplified throughout
+				the book but at the same time hints of crime and justice ,
+				time-to-time.</p>
 			</div>
 
 
@@ -473,11 +559,41 @@
 				<h2>Rewrite Approach <sub>TM</sub></h2>
 
 
-				<p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-				incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-				do</p>
+				<p>There are two key things that can be altered in this book to make it
+				perfect:</p>
+				<br>
+
+
+				<p>More Explanation as to how the time travel actually works. Tom's friends
+				are all enthusiastic in Science and Maths but it was odd that Kincaid had
+				made the decision to not involve them in the "investigation" Chapter. In
+				that chapter, Tom was able to extend the amount of time he could stay in
+				the past; something all his friends were keen to find out. As mentioned
+				before,the absence of Tom's friends can easily cause confusion in this
+				really vital part of the book.</p>
+				<br>
+
+
+				<p>The theme of love between Lucy and Tom started to take a U-Turn near the
+				end of the book. The fact that their relationship is what powers Tom's time
+				travel abilities, suggesting in the next book there is a chance for Tom to
+				lose his powers. However, the detriment of emphasising a potential break-up
+				is that many readers, including myself, start to drive away from the book
+				in search for better ones.</p>
+			</div>
+
+
+			<div class="interesting-point review-text">
+				<h2>Conclusion</h2>
+
+
+				<p>Filled with action and intelligence, camaraderie and humor, the second
+				book in S.J. Kincaid’s futuristic trilogy continues to explore fascinating
+				and timely questions about power, politics, technology, loyalty, and
+				friendship. I found it impossible to put the book down, it had a great
+				sense of personality. It is awesome that Kincaid has introduced other books
+				in the series. I have some ideas popping right now in my head! A must-read.
+				4/5.</p>
 			</div>
 		</div>
 	</section>
@@ -499,44 +615,91 @@
 
 
 				<div class="video">
-					<a class="vid-one" href="https://www.youtube.com/watch?v=hUAie-X3u8I" id=
-					"videopopupl-big"><img alt="Video" src=
-					"images/articles/articles-play-video-icon.png"></a>
+					<div class="youtube-player" data-id="VIDEO_ID">
+						<iframe allowfullscreen frameborder="0" height="360" src=
+						"https://www.youtube.com/embed/SSyA-iQHc10?rel=0?ecver=2" style=
+						"position:absolute;width:100%;height:100%;left:0" width="640"></iframe>
+					</div>
 				</div>
 			</div>
+			<script>
+			          document.addEventListener("DOMContentLoaded",
+			              function() {
+			                  var div, n,
+			                      v = document.getElementsByClassName("youtube-player");
+			                  for (n = 0; n < v.length; n++) {
+			                      div = document.createElement("div");
+			                      div.setAttribute("data-id", v[n].dataset.id);
+			                      div.innerHTML = labnolThumb(v[n].dataset.id);
+			                      div.onclick = labnolIframe;
+			                      v[n].appendChild(div);
+			                  }
+			              });
 
+			          function labnolThumb(id) {
+			              var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+			                  play = '<div class="play"><\/div>';
+			              return thumb.replace("ID", id) + play;
+			          }
+
+			          function labnolIframe() {
+			              var iframe = document.createElement("iframe");
+			              var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+			              iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+			              iframe.setAttribute("frameborder", "0");
+			              iframe.setAttribute("allowfullscreen", "1");
+			              this.parentNode.replaceChild(iframe, this);
+			          }
+
+			</script>
 
 			<div class="book-area">
 				<div class="book-title art-text">
-					<h2>Other Books</h2>
+					<h2>Other Reviews</h2>
 				</div>
 
 
-				<div class="books">
-					<div class="single-book wow slideInLeft">
-						<a href="article.html"><img alt="" src=
-						"images/articles/articles-forgotten-war-image.png"></a>
-					</div>
+				<center>
+					<div class="books">
+						<div class="single-book wow slideInLeft">
+							<a href="article.html"><img alt="" src=
+							"images/articles/articles-forgotten-war-image.png"></a>
+						</div>
 
 
-					<div class="single-book wow slideInRight">
-						<a href="article-3.html"><img alt="" src=
-						"images/book-village/book-village-the-time-machine-image.png"></a>
+						<div class="single-book wow slideInRight">
+							<a href="article-3.html"><img alt="" src=
+							"images/book-village/book-village-orient-express-image.png"></a>
+						</div>
 					</div>
-				</div>
+				</center>
 			</div>
 		</div>
 	</section>
 	<!-- video and book area end-->
-	<!-- footer area start -->
 
 
 	<footer class="footer-area fix" id="footer">
 		<div class="copyright">
-			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a></p>
+			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a>
+			<a href="javascript:" id="return-to-top"><i class=
+			"fa fa-chevron-up"></i></a></p>
 		</div>
+		<script>
+		            $(window).scroll(function() {
+		              if ($(this).scrollTop() >= 0) {        
+		                  $('#return-to-top').fadeIn(200);  
+		              } else {
+		                  $('#return-to-top').fadeOut(200);  
+		              }
+		            });
+		            $('#return-to-top').click(function() {     
+		              $('body,html').animate({
+		                  scrollTop : 0                     
+		              }, 500);
+		            });
+		</script>
 	</footer>
-	<!-- footer area end -->
 	<!-- Javascript Files -->
 	<script src="js/combined.js" type="text/javascript">
 	</script> 

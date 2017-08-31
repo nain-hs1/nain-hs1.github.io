@@ -261,23 +261,26 @@
 					</li>
 				</ul>
 			</div>
-            
-            <div class="menu-visit">
-                <div class="holder">
-                    <div class="visit-img">
-                        <a href="https://www.dymocks.com.au" target="_blank"> 
-                            <img src="images/menu/menu-dymocks-logo.png" alt="dymocks-image">
-                        </a>
-                    </div>
-                    
-                    <div class="visit-text">
-                        <p>The best place to buy books.</p>
-                    </div>
-                    <div class="menu-visit-btn">
-                        <a target="_blank" href="https://www.dymocks.com.au">Visit</a>
-                    </div>
-                </div>
-            </div>
+
+
+			<div class="menu-visit">
+				<div class="holder">
+					<div class="visit-img">
+						<a href="https://www.dymocks.com.au" target="_blank"><img alt=
+						"dymocks-image" src="images/menu/menu-dymocks-logo.png"></a>
+					</div>
+
+
+					<div class="visit-text">
+						<p>The best place to buy books.</p>
+					</div>
+
+
+					<div class="menu-visit-btn">
+						<a href="https://www.dymocks.com.au" target="_blank">Visit</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!-- menu area end -->
@@ -309,7 +312,7 @@
 	<div class="section about-usarea fix" id="about-us">
 		<div class="holder">
 			<div class="dis-flex">
-				<div class="about-img wow slideInUp" data-wow-delay="1s">
+				<div class="about-img">
 				</div>
 
 
@@ -481,7 +484,8 @@
 
 
 							<div class="submit-btn">
-								<button type="button"><a href="mailto:fantasyworldau17@gmail.com?subject=Contact%20Page%20-%20Fantasy%20World&body=Hi%20Fantasy%20World%20Team,"
+								<button type="button"><a href=
+								"mailto:fantasyworldau17@gmail.com?subject=Contact%20Page%20-%20Fantasy%20World&body=Hi%20Fantasy%20World%20Team,"
 								style="color:inherit">Submit</a></button>
 							</div>
 						</form>
@@ -547,8 +551,24 @@
 
 	<footer class="footer-area fix" id="footer">
 		<div class="copyright">
-			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a></p>
+			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a>
+			<a href="javascript:" id="return-to-top"><i class=
+			"fa fa-chevron-up"></i></a></p>
 		</div>
+		<script>
+		      $(window).scroll(function() {
+		        if ($(this).scrollTop() >= 0) {        
+		            $('#return-to-top').fadeIn(200);  
+		        } else {
+		            $('#return-to-top').fadeOut(200);  
+		        }
+		      });
+		      $('#return-to-top').click(function() {     
+		        $('body,html').animate({
+		            scrollTop : 0                     
+		        }, 500);
+		      });
+		</script>
 	</footer>
 	<!-- foter area end -->
 	<!-- Javascript Files -->
@@ -556,6 +576,5 @@
 	</script> 
 	<script src="js/vendor/jquery-1.11.2.min.js" type="text/javascript">
 	</script>
-
 </body>
 </html>

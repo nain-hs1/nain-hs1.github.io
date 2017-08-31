@@ -138,7 +138,7 @@
 
 					<li>
 						<a href="home.html">
-						<div class="menu-img"> <img alt="Home" src=
+						<div class="menu-img"><img alt="Home" src=
 						"images/menu/menu-home-icon.png">
 						</div>
 
@@ -252,22 +252,24 @@
 			</div>
 
 
-            <div class="menu-visit">
-                <div class="holder">
-                    <div class="visit-img">
-                        <a href="https://www.dymocks.com.au" target="_blank"> 
-                            <img src="images/menu/menu-dymocks-logo.png" alt="dymocks-image">
-                        </a>
-                    </div>
-                    
-                    <div class="visit-text">
-                        <p>The best place to buy books.</p>
-                    </div>
-                    <div class="menu-visit-btn">
-                        <a target="_blank" href="https://www.dymocks.com.au">Visit</a>
-                    </div>
-                </div>
-            </div>
+			<div class="menu-visit">
+				<div class="holder">
+					<div class="visit-img">
+						<a href="https://www.dymocks.com.au" target="_blank"><img alt=
+						"dymocks-image" src="images/menu/menu-dymocks-logo.png"></a>
+					</div>
+
+
+					<div class="visit-text">
+						<p>The best place to buy books.</p>
+					</div>
+
+
+					<div class="menu-visit-btn">
+						<a href="https://www.dymocks.com.au" target="_blank">Visit</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!-- menu area end -->
@@ -319,7 +321,7 @@
 				analyse it from top to bottom.</p>
 
 
-				<p>From normal everyday novels to the nursery rhymes sang by every toddle.
+				<p>From normal everyday novels to the nursery rhymes sang by every toddler.
 				We provide various outlooks about the origins of a text, compare it to our
 				values and most importantly comprehend the text’s significance.</p>
 			</div>
@@ -350,7 +352,7 @@
 
 				<p>In 2017, we have released <span>Book Village</span> a section of Fantasy
 				World that critically analyse novels. Every month we release a review of
-				three books that are aimed to understanding the deeper themes in in-demand
+				three books that are aimed to understanding the deeper themes in popular
 				books.</p>
 
 
@@ -360,14 +362,37 @@
 			</div>
 		</div>
 	</section>
+
+
+	<div class="marquee">
+		<a href="evaluation.html" style="font-size: 18px;"><marquee behavior=
+		"alternate" direction="right" scrollamount="10">Evaluate our
+		Website</marquee></a>
+	</div>
 	<!-- what we do area end -->
 	<!-- footer area start -->
 
 
 	<footer class="footer-area fix" id="footer">
 		<div class="copyright">
-			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a></p>
+			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a>
+			<a href="javascript:" id="return-to-top"><i class=
+			"fa fa-chevron-up"></i></a></p>
 		</div>
+		<script>
+		      $(window).scroll(function() {
+		        if ($(this).scrollTop() >= 0) {        
+		            $('#return-to-top').fadeIn(200);  
+		        } else {
+		            $('#return-to-top').fadeOut(200);  
+		        }
+		      });
+		      $('#return-to-top').click(function() {     
+		        $('body,html').animate({
+		            scrollTop : 0                     
+		        }, 500);
+		      });
+		</script>
 	</footer>
 	<!-- foter area end -->
 	<!-- Javascript Files -->

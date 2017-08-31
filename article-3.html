@@ -206,13 +206,13 @@
 
 
 								<li>
-									<a href="article-3.html">
+									<a href="article-3.html" id="active">
 									<div class="city-img"><img alt="Book" src=
 									"images/menu/menu-book-icon-white.png">
 									</div>
 
 
-									<div class="city-text" id="active">
+									<div class="city-text">
 										3
 									</div></a>
 								</li>
@@ -253,22 +253,24 @@
 			</div>
 
 
-            <div class="menu-visit">
-                <div class="holder">
-                    <div class="visit-img">
-                        <a href="https://www.dymocks.com.au" target="_blank"> 
-                            <img src="images/menu/menu-dymocks-logo.png" alt="dymocks-image">
-                        </a>
-                    </div>
-                    
-                    <div class="visit-text">
-                        <p>The best place to buy books.</p>
-                    </div>
-                    <div class="menu-visit-btn">
-                        <a target="_blank" href="https://www.dymocks.com.au">Visit</a>
-                    </div>
-                </div>
-            </div>
+			<div class="menu-visit">
+				<div class="holder">
+					<div class="visit-img">
+						<a href="https://www.dymocks.com.au" target="_blank"><img alt=
+						"dymocks-image" src="images/menu/menu-dymocks-logo.png"></a>
+					</div>
+
+
+					<div class="visit-text">
+						<p>The best place to buy books.</p>
+					</div>
+
+
+					<div class="menu-visit-btn">
+						<a href="https://www.dymocks.com.au" target="_blank">Visit</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!-- menu area end -->
@@ -304,13 +306,13 @@
 						"images/articles/articles-star-dark-icon.png"> <img alt="Star" src=
 						"images/articles/articles-star-dark-icon.png"> <img alt="Star" src=
 						"images/articles/articles-star-dark-icon.png"> <img alt="Star" src=
-						"images/articles/articles-star-light-icon.png"> <img alt="Star" src=
-						"images/articles/articles-star-light-icon.png"></div>
+						"images/articles/articles-star-dark-icon.png"> <img alt="Star" src=
+						"images/articles/articles-star-dark-icon.png"></div>
 					</div>
 
 
 					<div class="book-img"><img alt="Book" src=
-					"images/book-village/book-village-the-time-machine-image.png">
+					"images/book-village/book-village-orient-express-image.png">
 					</div>
 				</div>
 
@@ -320,7 +322,7 @@
 						<p>AUTHOR</p>
 
 
-						<h3>H.G WELLS</h3>
+						<h3>AGATHA CHRISTIE</h3>
 					</div>
 
 
@@ -333,10 +335,10 @@
 
 
 					<div class="forgotten art-text">
-						<h2>The Time Machine</h2>
+						<h2>Murder on the Orient Express</h2>
 
 
-						<p>Published in 1895, revised in 1968</p>
+						<p>Published 1 January 1934</p>
 					</div>
 
 
@@ -348,17 +350,17 @@
 
 				<div class="three-one">
 					<div class="attach">
-						<a href="mailto:fantasyworldau17@gmail.com"><img alt="Message" src=
-						"images/articles/articles-email-link-icon.png"></a>
+						<a href="mailto:%20fantasy-worldemail012@gmail.com"><img alt="Message"
+						src="images/articles/articles-email-link-icon.png"></a>
 					</div>
 
 
-					<div class="smal-video fix">
-						<a class="vid-one" href="https://www.youtube.com/watch?v=14WBOP5h-JY" id=
+					<div class="smal-video fix wow tada" data-wow-delay="0.5s">
+						<a class="vid-one" href="https://www.youtube.com/watch?v=8BqecBs7D34" id=
 						"videopopupl"><img alt="Video" src=
 						"images/articles/articles-intro-video-icon.png">
 
-						<p>video</p></a>
+						<p>Book Trailer</p></a>
 					</div>
 				</div>
 			</div>
@@ -368,25 +370,101 @@
 	<!-- summary area start -->
 
 
+	<div class="disclaimer-wrapper">
+		<center>
+			<div id="container">
+				<button class="button button-colour hero-sentence-link" id=
+				"disclaimer-hide" onclick="myFunction()"><b id=
+				"hero-sentence-link">Disclaimer<i class="fa fa-arrow-down" id=
+				"icon"></i></b></button>
+			</div>
+
+
+			<div id="myDIV" style="display: none;">
+				<div class="about-our-reviews">
+					<b id="hero-sentence" style="color:#3d3d3d">About Our Reviews</b>
+
+					<p id="hero-sentence-2" style="color:#666666;"><br>
+					We analyse the overarching ideas of a novel. We do this by providing you
+					with a summary, our critical opinion and how we would re-write the book
+					<i>(if we had the chance)</i>. Our goal is to wake up your inner desire to
+					read a book and find the perfect match for you. For this reason we have to
+					advise that our reviews may contain <b style=
+					"color: #000000;">spoilers.</b></p>
+				</div>
+			</div>
+		</center>
+		<script>
+		      function myFunction() {
+		        var x = document.getElementById('myDIV');
+		        if (x.style.display === 'none') {
+		            x.style.display = 'block';
+		        } else {
+		            x.style.display = 'none';
+		        }
+		      }
+		</script> 
+		<script>
+		        (function(document){
+		      var div = document.getElementById('container');
+		      var icon = document.getElementById('icon');
+		      var open = false;
+
+		      div.addEventListener('click', function(){
+		        if(open){
+		          icon.className = 'fa fa-arrow-down';  
+		        } else{
+		          icon.className = 'fa fa-arrow-down open';
+		        }
+
+		        open = !open;
+		      });
+		      })(document);
+		</script>
+	</div>
+
+	<hr>
+
+
 	<section class="summary-area fix" id="sumary">
 		<div class="holder sp">
 			<div class="summary art-text fix">
 				<h2>Summary</h2>
+				<br>
 
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-				velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-				cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-				est laborum.</p>
+				<h2 id="hero-sentence-main"><b>The perfect blend of horror and secrets,
+				with a hint of futuristic drama. A classic read.</b><br>
+				</h2>
+
+
+				<p>When Hercule Poirot checks into the Tokatlian Hotel in Istanbul, he gets
+				a message instructing him to cancel his courses of action and come back to
+				London, so he boards the Orient Express, setting out toward Paris. Poirot
+				is soon drawn nearer by Samuel Ratchett, an American millionaire who fears
+				for his life. Ratchett endeavors to procure Poirot as his own
+				criminologist, however he rejects and tells Ratchett: 'I don't care for
+				your face'. In the morning, Ratchett is discovered dead, cut in various
+				places. The Orient Express is at a stop because of an extreme overnight
+				snowstorm and it is impractical that the killer could have left the
+				premises, so they should in any case be among them. Yet, twelve of the
+				travelers are discovered to be foes of Samuel Ratchett – so who could the
+				murderer be?</p>
+				<br>
+
+
+				<center>
+					<h1>A total must-read. <i>Justice, secrets, detectives, clues, crimes,
+					discoveries, a list that can go on forever.</i></h1>
+					<br>
+				</center>
 			</div>
 
 
 			<div class="about-author fix">
 				<div class="dis-flex">
-					<div class="author-img">
+					<div class="author-img"><img alt="" height="" src=
+					"images/articles/articles-about-author-agatha-christie.png" width="">
 					</div>
 
 
@@ -394,13 +472,16 @@
 						<h2>About the Author</h2>
 
 
-						<h3>Henry Reynolds</h3>
+						<h3>Agatha Christie</h3>
 
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-						minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-						ex ea commodo consequat.</p>
+						<p>Agatha was born on 15 September 1890 in South West England into a
+						comfortably well off middle class family. What made her upbringing
+						unusual, even for its time, was that she was home schooled largely by her
+						father, an American. Her mother, Clara, who was an excellent storyteller,
+						did not want her to learn to read until she was eight but Agatha, bored
+						and as the only child at home taught herself to read by the age of
+						five.</p>
 					</div>
 				</div>
 			</div>
@@ -410,18 +491,18 @@
 		<div class="amazon-area">
 			<div class="holder">
 				<div class="amazon-img">
-					<a href="#"><img alt="Amazon" src=
-					"images/articles/articles-amazon-logo.png"></a>
+					<a href="https://www.officeworks.com.au"><img alt="Officeworks" src=
+					"images/book-village/book-village-officeworks-ad.png"></a>
 				</div>
 
 
 				<div class="title">
-					<h2>Buy anything awesome.</h2>
+					<h2>Big Ideas. Lowest Prices.</h2>
 				</div>
 
 
 				<div class="visit-link">
-					<a href="#">Visit</a>
+					<a href="https://www.officeworks.com.au" target="_blank">Visit</a>
 				</div>
 			</div>
 		</div>
@@ -443,30 +524,37 @@
 
 
 			<div class="review-opinion review-text">
-				<h2>Summative Opinion</h2>
+				<h2>Opinion</h2>
 
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat.</p>
-			</div>
+				<p>Murder on the Orient Express is, gratefully, another charming
+				"whodunnit" from Agatha Christie. While perusing most books, you never
+				truly know when you will discover reality, yet Agatha Christie is
+				constantly forthright with the reader. Murder on the Orient Express is
+				separated into three sections: The Facts, The Evidence and Hercule Poirot
+				Solving the Crime. Also, some confirmation is laid out for us unmistakably:
+				The Evidence of the Secretary, The Evidence of the Valet, The Evidence of
+				the American Lady, and so on. I personally cherish this novel as I adored
+				knowing ahead of time what I would get from every chapter, except that
+				doesn't make it any less demanding to think about who the killer is.</p>
+				<br>
 
 
-			<div class="interesting-point review-text">
-				<h2>Interesting Points</h2>
+				<p>The narrative falls into a question and answer pattern. Poirot runs the
+				gauntlet of passengers, revealing the inadequacies of their stories and the
+				consequential, tiny details. Suspicions are ever shifting and while Poirot
+				remains attuned to the undercurrent, readers find themselves at turns
+				baffled, shocked, intrigued, defeated, and generally engrossed. This
+				who-dunnit is particularly more complicated then Agatha’s usual writing
+				style, which is saying quite a lot. In the end despite my best deductions,
+				Poirot revealed the true majesty and intricacy of the international
+				crime.</p>
+				<br>
 
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat.</p>
+				<p>Short and fascinating, Agatha Christie’s Murder on the Orient Express
+				ultimately lives up to its legacy as stellar, hard to solve crime
+				fiction.</p>
 			</div>
 
 
@@ -474,11 +562,38 @@
 				<h2>Rewrite Approach <sub>TM</sub></h2>
 
 
-				<p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-				incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-				do</p>
+				<p>This book was simply flawless. The attention to detail Agatha had
+				scattered across the book makes it very difficult to find any issues.
+				However, after reading the book for the third time, I picked up a few
+				things which could be slightly tweaked.</p>
+				<br>
+
+
+				<p>The author refrained from exploring the outside of the train. The reason
+				for this was to maintain a succinct novel, however if more exploration was
+				done: a deeper, more impactful story could have been created.</p>
+				<br>
+
+
+				<p>Another method to improve the quality of the novel is through the use of
+				extended metaphors. Usually in crime fiction novels, authors tend to use
+				metaphors which run throughout the novel and are revealed at the end. This
+				sense of enjoyment lacks in this book. On the other hand, the great
+				intricacies of the book outweigh this negative point.</p>
+			</div>
+
+
+			<div class="interesting-point review-text">
+				<h2>Conclusion</h2>
+
+
+				<p>I thought that it was interesting to read an old-fashioned, classic
+				detective novel. The book was incredibly well plotted, and left you
+				admiring the writer’s skill in showing how clever her detective was to
+				uncover the mystery. I really enjoyed the surprising twist at the end too.
+				I would recommend this book to anyone of 12 and above who enjoys detective
+				stories and I will certainly be reading more Agatha Christie novels in
+				future.</p>
 			</div>
 		</div>
 	</section>
@@ -500,42 +615,92 @@
 
 
 				<div class="video">
-					<a class="vid-one" href="https://www.youtube.com/watch?v=hUAie-X3u8I" id=
-					"videopopupl-big"><img alt="Video" src=
-					"images/articles/articles-play-video-icon.png"></a>
+					<div class="youtube-player" data-id="VIDEO_ID">
+						<iframe allowfullscreen frameborder="0" height="315" src=
+						"https://www.youtube.com/embed/zwEV-EBXROs?rel=0" width="560"></iframe>
+					</div>
 				</div>
 			</div>
+			<script>
+			 document.addEventListener("DOMContentLoaded",
+			     function() {
+			         var div, n,
+			             v = document.getElementsByClassName("youtube-player");
+			         for (n = 0; n < v.length; n++) {
+			             div = document.createElement("div");
+			             div.setAttribute("data-id", v[n].dataset.id);
+			             div.innerHTML = labnolThumb(v[n].dataset.id);
+			             div.onclick = labnolIframe;
+			             v[n].appendChild(div);
+			         }
+			     });
 
+			 function labnolThumb(id) {
+			     var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+			         play = '<div class="play"><\/div>';
+			     return thumb.replace("ID", id) + play;
+			 }
+
+			 function labnolIframe() {
+			     var iframe = document.createElement("iframe");
+			     var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+			     iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+			     iframe.setAttribute("frameborder", "0");
+			     iframe.setAttribute("allowfullscreen", "1");
+			     this.parentNode.replaceChild(iframe, this);
+			 }
+
+			</script>
 
 			<div class="book-area">
 				<div class="book-title art-text">
-					<h2>Other Books</h2>
+					<h2>Other Reviews</h2>
 				</div>
 
 
-				<div class="books">
-					<div class="single-book wow slideInLeft">
-						<a href="article.html"><img alt="" src=
-						"images/articles/articles-forgotten-war-image.png"></a>
-					</div>
+				<center>
+					<div class="books">
+						<div class="single-book wow slideInLeft">
+							<a href="article.html"><img alt="" src=
+							"images/articles/articles-forgotten-war-image.png"></a>
+						</div>
 
 
-					<div class="single-book wow slideInRight">
-						<a href="article-2.html"><img alt="" src=
-						"images/book-village/book-village-orient-express-image.png"></a>
+						<div class="single-book wow slideInRight">
+							<a href="article-2.html"><img alt="" src=
+							"images/book-village/book-village-the-time-machine-image.png"></a>
+						</div>
 					</div>
-				</div>
+				</center>
 			</div>
 		</div>
 	</section>
 	<!-- video and book area end-->
+	<!-- footer area start -->
 
 
 	<footer class="footer-area fix" id="footer">
 		<div class="copyright">
-			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a></p>
+			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a>
+			<a href="javascript:" id="return-to-top"><i class=
+			"fa fa-chevron-up"></i></a></p>
 		</div>
+		<script>
+		      $(window).scroll(function() {
+		        if ($(this).scrollTop() >= 0) {        
+		            $('#return-to-top').fadeIn(200);  
+		        } else {
+		            $('#return-to-top').fadeOut(200);  
+		        }
+		      });
+		      $('#return-to-top').click(function() {     
+		        $('body,html').animate({
+		            scrollTop : 0                     
+		        }, 500);
+		      });
+		</script>
 	</footer>
+	<!-- footer area end -->
 	<!-- Javascript Files -->
 	<script src="js/combined.js" type="text/javascript">
 	</script> 

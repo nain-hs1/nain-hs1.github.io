@@ -10,6 +10,7 @@
 	<link href="images/fev.png" rel="icon" type="image/icon">
 	<link href="css/animate.css" rel="stylesheet">
 	<link href="css/icons.css" rel="stylesheet">
+    <link href="css/video.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
 	<script src="js/vendor/jquery-1.11.2.min.js" type="text/javascript">
 	</script><!--[if lt IE 9]>
@@ -471,7 +472,7 @@
 
 							<div class="SendMessageButton">
 								<input class="submitformbutton" id="actionsubmit" name="Submit" type=
-								"submit" value="Send" action="mailto:fantasyworld17@gmail.com" method="GET">
+								"submit" value="Send">
 							</div>
 						</form>
 					</div>
@@ -545,9 +546,9 @@
 											could improve the website experience for everyone.</p>
 
 
-											<h3><span class="word-document-download "><a href=
-											"https://drive.google.com/file/d/0B5ZmnNv5JQLfOVZCRExBVjNPM0k/view?usp=sharing"
-											target="_blank" >Evaluation Responses</a></span>
+											<h3><span class="word-document-download"><a href=
+											"https://drive.google.com/file/d/0B5ZmnNv5JQLfZ2xfSHhaR0RSeEE/view?usp=sharing"
+											target="_blank">Evaluation Responses</a></span>
 											</h3>
 										</div>
 									</div>
@@ -563,10 +564,26 @@
 
 	<footer class="footer-area fix" id="footer">
 		<div class="copyright">
-			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a></p>
+			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a>
+			<a href="javascript:" id="return-to-top"><i class=
+			"fa fa-chevron-up"></i></a></p>
 		</div>
+		<script>
+		      $(window).scroll(function() {
+		        if ($(this).scrollTop() >= 0) {        
+		            $('#return-to-top').fadeIn(200);  
+		        } else {
+		            $('#return-to-top').fadeOut(200);  
+		        }
+		      });
+		      $('#return-to-top').click(function() {     
+		        $('body,html').animate({
+		            scrollTop : 0                     
+		        }, 500);
+		      });
+		</script>
 	</footer>
 	<script src="js/combined.js" type="text/javascript">
-	</script> 
+	</script>
 </body>
 </html>

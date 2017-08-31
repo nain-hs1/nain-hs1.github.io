@@ -95,7 +95,7 @@
 						"M1315.9,157c-3.6,7.8-5.4,14.4-5.4,19.2c0,4.5,1.2,6.6,3.9,6.6c10.5,0,25.2-19.8,35.4-39.6 c3-5.7,6.9-5.4,9.6,0c1.5,2.7,2.7,11.1-1.2,19.5c-8.1,16.2-26.7,31.8-44.1,31.8c-14.7,0-24.6-5.1-27-18.3 c-9.3,9.6-21,17.4-34.2,17.4c-17.4,0-27-12.9-27-30.6c0-12.6,5.4-29.1,15.9-44.4c23.4-33.9,48.3-48,63.9-48c10.2,0,16.8,4.2,19.2,12 c15-28.2,34.5-62.1,44.4-76.2c5.4-7.5,9.6-6.9,12.6,0.3c1.7,3.7,2.6,7.7,2.7,11.7c0,8.1-3.9,19.8-11.7,33.9 C1355.5,85.3,1330,127.3,1315.9,157z M1310.5,88.9c-8.4-0.3-28.2,18-44.1,43.2c-9,14.1-13.8,29.1-13.8,39c0,5.4,1.2,9.3,4.5,9.3 c9.6,0,24-16.8,37.5-42.9C1310.8,106.6,1316.2,89.2,1310.5,88.9z"
 						id="d">
 						</path></svg>
-					</div></a> <!--SVG CODE END -->
+					</div></a>
 				</div>
 			</div>
 
@@ -254,22 +254,24 @@
 			</div>
 
 
-            <div class="menu-visit">
-                <div class="holder">
-                    <div class="visit-img">
-                        <a href="https://www.dymocks.com.au" target="_blank"> 
-                            <img src="images/menu/menu-dymocks-logo.png" alt="dymocks-image">
-                        </a>
-                    </div>
-                    
-                    <div class="visit-text">
-                        <p>The best place to buy books.</p>
-                    </div>
-                    <div class="menu-visit-btn">
-                        <a target="_blank" href="https://www.dymocks.com.au">Visit</a>
-                    </div>
-                </div>
-            </div>
+			<div class="menu-visit">
+				<div class="holder">
+					<div class="visit-img">
+						<a href="https://www.dymocks.com.au" target="_blank"><img alt=
+						"dymocks-image" src="images/menu/menu-dymocks-logo.png"></a>
+					</div>
+
+
+					<div class="visit-text">
+						<p>The best place to buy books.</p>
+					</div>
+
+
+					<div class="menu-visit-btn">
+						<a href="https://www.dymocks.com.au" target="_blank">Visit</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!-- menu area end -->
@@ -341,7 +343,7 @@
 
 
 					<div class="reviewed">
-						<p>Reviewed By: <span>Himanshu S.</span></p>
+						<p>Reviewed By: <span>Himanshu</span></p>
 					</div>
 				</div>
 
@@ -353,12 +355,12 @@
 					</div>
 
 
-					<div class="smal-video fix">
-						<a class="vid-one" href="https://www.youtube.com/watch?v=14WBOP5h-JY" id=
+					<div class="smal-video fix wow tada" data-wow-delay="0.5s">
+						<a class="vid-one" href="https://www.youtube.com/watch?v=ZTLmykOq1yI" id=
 						"videopopupl"><img alt="Video" src=
 						"images/articles/articles-intro-video-icon.png">
 
-						<p>video</p></a>
+						<p>Book Trailer</p></a>
 					</div>
 				</div>
 			</div>
@@ -368,25 +370,97 @@
 	<!-- summary area start -->
 
 
+	<div class="disclaimer-wrapper">
+		<center>
+			<div id="container">
+				<button class="button button-colour hero-sentence-link" id=
+				"disclaimer-hide" onclick="myFunction()"><b id=
+				"hero-sentence-link">Disclaimer<i class="fa fa-arrow-up" id=
+				"icon"></i></b></button>
+			</div>
+
+
+			<div id="myDIV">
+				<div class="about-our-reviews">
+					<b id="hero-sentence" style="color:#3D3D3D">About Our Reviews</b>
+
+					<p id="hero-sentence-2" style="color:#666666;"><br>
+					We analyse the overarching ideas of a novel. We do this by providing you
+					with a summary, our critical opinion and how we would re-write the book
+					<i>(if we had the chance)</i>. Our goal is to wake up your inner desire to
+					read a book and find the perfect match for you. For this reason we have to
+					advise that our reviews may contain <b style=
+					"color: #000000;">spoilers.</b></p>
+				</div>
+			</div>
+		</center>
+		<script>
+		      function myFunction() {
+		        var x = document.getElementById('myDIV');
+		        if (x.style.display === 'none') {
+		            x.style.display = 'block';
+		        } else {
+		            x.style.display = 'none';
+		        }
+		      }
+		</script> 
+		<script>
+		        (function(document){
+		      var div = document.getElementById('container');
+		      var icon = document.getElementById('icon');
+		      var open = false;
+
+		      div.addEventListener('click', function(){
+		        if(open){
+		          icon.className = 'fa fa-arrow-up';  
+		        } else{
+		          icon.className = 'fa fa-arrow-up open';
+		        }
+
+		        open = !open;
+		      });
+		      })(document);
+		</script>
+	</div>
+
+	<hr>
+
+
 	<section class="summary-area fix" id="sumary">
 		<div class="holder sp">
 			<div class="summary art-text fix">
 				<h2>Summary</h2>
+				<br>
 
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-				velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-				cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-				est laborum.</p>
+				<h2 id="hero-sentence-main"><b>A brilliant light shone into a dark
+				forgetfulness: ground-breaking, authoritative, compelling.</b><br>
+				</h2>
+
+
+				<p>There is a violence in Australia’s history that few are prepared to
+				acknowledge, argues Henry Reynolds. This novel examines how we as
+				Australians fail to recognise the Aboriginal Australians who perished
+				fighting for their traditional homelands. Reynolds uses the facts of the
+				“forgotten war” to launch into a critique of the modern obsession with war.
+				He notes there are up to 5000 memorials around Australia to remember
+				soldiers who did not return from conflicts overseas. But, there are just a
+				handful to recall the wars the Aboriginals had taken a part in.</p>
+				<br>
+
+
+				<p>From the opening scene to the last word of the non-fictional book, every
+				journey put forward by Reynolds can captivate any reader. <span class=
+				"text-center">Comprehension of the past is necessary to paint the
+				future.</span></p>
+				<br>
 			</div>
 
 
 			<div class="about-author fix">
 				<div class="dis-flex">
-					<div class="author-img">
+					<div class="author-img"><img alt="henry-reynolds" height="" src=
+					"images/articles/articles-about-author-henry-reynolds.png" width="">
 					</div>
 
 
@@ -397,10 +471,13 @@
 						<h3>Henry Reynolds</h3>
 
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-						minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-						ex ea commodo consequat.</p>
+						<p>Henry Reynolds born in 1938, historian, experienced childhood in
+						Hobart and was taught at Hobart High School and the University of
+						Tasmania. In 1965 he acknowledged a lectureship at James Cook University
+						in Townsville, which started an enthusiasm for the historical analysis of
+						relations amongst Britishers and Aborigines. His pioneering work, was
+						fundamental in changing understandings of Australia's past, present &amp;
+						future.</p>
 					</div>
 				</div>
 			</div>
@@ -421,7 +498,7 @@
 
 
 				<div class="visit-link">
-					<a target="_blank" href="https://www.amazon.com.au">Visit</a>
+					<a href="https://www.amazon.com.au" target="_blank">Visit</a>
 				</div>
 			</div>
 		</div>
@@ -443,30 +520,41 @@
 
 
 			<div class="review-opinion review-text">
-				<h2>Summative Opinion</h2>
+				<h2>Opinion</h2>
+				<br>
 
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat.</p>
-			</div>
+				<p>5000 people are dead from one side. And from the other side: 10,000
+				people, their culture, their dignity and their rights swept away. The
+				untold story of the Aboriginal struggle is highlighted throughout this
+				book. To completely provide an opinion on the book, I personally, had to
+				research all the facts before finishing the first few chapters. After doing
+				so, I realised that Reynolds had somewhat subtlety altered the true facts
+				to create a more appealing story. Due to this misinterpretation, 1 star had
+				been deducted from the rating.</p>
+				<br>
 
 
-			<div class="interesting-point review-text">
-				<h2>Interesting Points</h2>
+				<p>The imagery used to paint a picture of how the Aborigines were brutally
+				attacked: <i>the guerrilla tactics, terror, the attacking of homesteads and
+				killing of families.</i> This read is surely not for the feint hearted.</p>
+				<br>
 
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat.</p>
+				<p>This book continues the story told in Henry Reynolds’ previous book "The
+				Other Side of the Frontier", which argued that the settlement of Australia
+				had a high level of violence and conflict that we chose to ignore. That
+				book prompted a flowering of research and fieldwork that Reynolds draws on
+				here to give a thorough and systematic account of what caused the frontier
+				wars between white colonists and Aborigines, how many people died and
+				whether the colonists themselves saw frontier conflict as a form of
+				warfare.</p>
+				<br>
+
+
+				<p>It is particularly timely as we approach Remembrance Day in November
+				2017. This powerful book makes it clear that there can be no reconciliation
+				without acknowledging the wars fought on our own soil.</p>
 			</div>
 
 
@@ -474,11 +562,39 @@
 				<h2>Rewrite Approach <sub>TM</sub></h2>
 
 
-				<p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-				incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-				do</p>
+				<p>In the very beginning of the book, Henry Reynolds pictures an Aboriginal
+				with ragged clothes walking in isolation. This powerful imagery has allowed
+				the readers to easily connect to the book and understand the struggles of
+				the Indigenous Austrlians. However, if there were more people involved in
+				the opening scene, there could be a chance for dialogue, immediately
+				connecting the reader to Reynold's world. This was suggested because the
+				first few chapters were not engaging and could bore regular readers.</p>
+				<br>
+
+
+				<p>Another way Reynold could have improved the quality of "Forgotten War"
+				is during chapter 10. In this Chapter there were several key philosophies
+				introduced such as Egalitarianism (the belief of equality) and Capitalism
+				(promoting entreprenurship). Reynold did not clearly express his beliefs on
+				these issues and this chapter was a pivotal point in this novel. Instead,
+				if Reynold had provided his perspective, readers could further comprehend
+				his statements in future chapters. Due to this lack of information, there
+				was a missing chance for controversy in the book.</p>
+			</div>
+
+
+			<div class="interesting-point review-text">
+				<h2>Conclusion</h2>
+
+
+				<p>This book is inspiring to myself and hopefully many others, because it
+				teaches you about friendship, loyalty, and follows the proverb “Don’t judge
+				a book by its cover”. I would recommend this book to children above the age
+				of 13, who understand the level of Henry Reynold's amazing writing and
+				descriptive skills. This text suits the target audience, young teenagers to
+				adults who are interested in history and humanity's place in a
+				conflict-inflicted universe. Reynolds’s incredible writing skills combined
+				with his creativity allow the development of a truly magnificent piece.</p>
 			</div>
 		</div>
 	</section>
@@ -500,31 +616,64 @@
 
 
 				<div class="video">
-					<a class="vid-one" href="https://www.youtube.com/watch?v=hUAie-X3u8I" id=
-					"videopopupl-big"><img alt="Video" src=
-					"images/articles/articles-play-video-icon.png"></a>
+					<div class="youtube-player" data-id="VIDEO_ID">
+						<iframe allowfullscreen frameborder="0" height="360" src=
+						"https://www.youtube.com/embed/ofG8C9BpZnQ?rel=0?ecver=2" style=
+						"position:absolute;width:100%;height:100%;left:0" width="640"></iframe>
+					</div>
 				</div>
 			</div>
+			<script>
+			 document.addEventListener("DOMContentLoaded",
+			     function() {
+			         var div, n,
+			             v = document.getElementsByClassName("youtube-player");
+			         for (n = 0; n < v.length; n++) {
+			             div = document.createElement("div");
+			             div.setAttribute("data-id", v[n].dataset.id);
+			             div.innerHTML = labnolThumb(v[n].dataset.id);
+			             div.onclick = labnolIframe;
+			             v[n].appendChild(div);
+			         }
+			     });
 
+			 function labnolThumb(id) {
+			     var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+			         play = '<div class="play"><\/div>';
+			     return thumb.replace("ID", id) + play;
+			 }
+
+			 function labnolIframe() {
+			     var iframe = document.createElement("iframe");
+			     var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+			     iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+			     iframe.setAttribute("frameborder", "0");
+			     iframe.setAttribute("allowfullscreen", "1");
+			     this.parentNode.replaceChild(iframe, this);
+			 }
+
+			</script>
 
 			<div class="book-area">
 				<div class="book-title art-text">
-					<h2>Other Books</h2>
+					<h2>Other Reviews</h2>
 				</div>
 
 
-				<div class="books">
-					<div class="single-book wow slideInLeft">
-						<a href="article-2.html"><img alt="" src=
-						"images/book-village/book-village-orient-express-image.png"></a>
-					</div>
+				<center>
+					<div class="books">
+						<div class="single-book wow slideInLeft">
+							<a href="article-2.html"><img alt="" src=
+							"images/book-village/book-village-the-time-machine-image.png"></a>
+						</div>
 
 
-					<div class="single-book wow slideInRight">
-						<a href="article-3.html"><img alt="" src=
-						"images/book-village/book-village-the-time-machine-image.png"></a>
+						<div class="single-book wow slideInRight">
+							<a href="article-3.html"><img alt="" src=
+							"images/book-village/book-village-orient-express-image.png"></a>
+						</div>
 					</div>
-				</div>
+				</center>
 			</div>
 		</div>
 	</section>
@@ -533,8 +682,24 @@
 
 	<footer class="footer-area fix" id="footer">
 		<div class="copyright">
-			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a></p>
+			<p>© 2017 - <a href="home.html" title="Home">Fantasy World Pty Ltd.</a>
+			<a href="javascript:" id="return-to-top"><i class=
+			"fa fa-chevron-up"></i></a></p>
 		</div>
+		<script>
+		      $(window).scroll(function() {
+		        if ($(this).scrollTop() >= 1000) {        
+		            $('#return-to-top').fadeIn(200);  
+		        } else {
+		            $('#return-to-top').fadeOut(200);  
+		        }
+		      });
+		      $('#return-to-top').click(function() {     
+		        $('body,html').animate({
+		            scrollTop : 0                     
+		        }, 500);
+		      });
+		</script>
 	</footer>
 	<!-- Javascript Files -->
 	<script src="js/combined.js" type="text/javascript">
