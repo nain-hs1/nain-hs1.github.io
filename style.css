@@ -1632,6 +1632,12 @@ Book Village page Css
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
+.references-area {
+	background: #7b85fc none repeat scroll 0 0;
+	height: auto;
+	min-height: 400px;
+	position: relative;
+}
 
 .content-block>h2 {
 	color: #ffffff;
